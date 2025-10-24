@@ -32,5 +32,33 @@ import numpy as np
 
 
 # Accessing/Changing specific elements, rows, columns, etc.
-a = np.array([[1,2,3,4,5,6,7],[8,9,10,11,12,13,14]])
-print(a.shape)
+# a = np.array([[1,2,3,4,5,6,7],[8,9,10,11,12,13,14]])
+# print(a.shape)
+
+# # get a specific element
+# print(a[1,5])
+
+# # Getting a specific row
+# print(a[1, :])
+
+# # getting a specific column
+# print(a[:, 6])
+
+# # getting a little more fancy [startindex:endindex:stepsize]
+# print(a[0, 1:-5:1])
+
+# Initializing different Types of array.
+# All Zeros matrix
+# print(np.zeros((2,3,4)))
+
+# All Ones matrix
+# print(np.ones((4,2,2)))
+
+# Any number matrix 
+# print(np.full((4,2,2), 19))
+
+# Random decimal numbers
+# print(np.random.rand(4,2))
+
+# random integer values
+# print(np.random.randint(40, size=(2,2)))
