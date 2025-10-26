@@ -62,3 +62,39 @@ import numpy as np
 
 # random integer values
 # print(np.random.randint(40, size=(2,2)))
+
+# Identity matrix
+# print(np.identity(20))
+
+# Class work
+# output = np.ones((5,5))
+# print(output)
+# z = np.zeros((3,3))
+# print(z)
+# z[1,1] = 9
+# print(z)
+# output[1:4,1:4] = z
+# print(output)
+
+# Copying arrays
+# a = np.array([1,2,3])
+# b = a.copy()
+# print(b)
+# b[1] = 400
+# print(a)
+# print(b)
+# print(a + 2)
+
+# # Take the sin
+# print(np.sin(a))
+
+# linear algebra
+# a = np.ones((2,3))
+# print(a)
+# b = np.full((3,2),2)
+# print(b)
+# print(np.matmul(a,b))
+
+# Find the determinant
+# c = np.identity(3)
+# print(np.linalg.det(c))
